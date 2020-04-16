@@ -3,7 +3,7 @@ let app = express()
 
 app.get('/',(req,res) => {
     console.log('Hello World')
-    res.send('I can do it!! 5835512007 Napat Binsaard')
+    res.send('Hello World')
 })
 
 app.get('/crash',(req,res) => {
